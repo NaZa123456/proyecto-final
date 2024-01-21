@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <img
+        src="imagen/desktop-wallpaper-login-backgrounds-1-login.jpg"
+        alt=""
+        class="login__bg"
+      />
+      />
+      <form action="" class="login__form">
+        <h1 class="login__title">Login</h1>
+
+        <div class="login__inputs">
+          <div class="login__box">
+            <input
+              type="email"
+              placeholder="Email ID"
+              required
+              class="login__input"
+            />
+            <i class="ri-mail-line"></i>
+          </div>
+          <div class="login__box">
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              class="login__input"
+            />
+            <i class="ri-lock-fill"></i>
+          </div>
+        </div>
+        <div class="login__check">
+          <div class="login__check-box">
+            <input type="checkbox" class="login__check-input" id="user-check" />
+            <label for="user-check" class="login__check-label"
+              >Remember me</label
+            >
+          </div>
+
+          <a href="#" class="login__forgot">Forgot Password?</a>
+        </div>
+        <button type="submit" class="login__button">Login</button>
+        <div class="login__register">
+          Don't have an account?
+          <a href="http://127.0.0.1:5500/register%20page/index.html"
+            >Register</a
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
